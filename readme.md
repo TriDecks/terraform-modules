@@ -12,7 +12,7 @@ Creates a complete VPC setup with public and private subnets, NAT gateway, inter
 
 ```hcl
 module "vpc" {
-  source = "git::https://github.com/PayD-organization/terraform-modules.git//vpc?ref=v1.0.0"
+  source = "git::https://github.com/PayD/terraform-modules.git//vpc?ref=v1.0.0"
   
   vpc_cidr             = "10.0.0.0/16"
   availability_zones   = ["us-east-1a", "us-east-1b"]
