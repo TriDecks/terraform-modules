@@ -1,0 +1,6 @@
+.idea/
+*.tfstate
+*.tfstate.backup
+.terraform/
+tfc-remote.tf
+*.tfvars
